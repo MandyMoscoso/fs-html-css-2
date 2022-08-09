@@ -1,5 +1,35 @@
+body{
+    margin: 0;
+}
 h1{
-    background-color: gray;
+    background-color: #444444;
     width: 100%;
-    height: 30px;
+    height: 15vh;
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: row;  
+}
+.left, .right{
+    background-color: #D8D8D8;
+    height: 85vh;
+    width: 20vw;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 85vh;
+    width: 60vw;
+}
+.top{
+    background-color: #EFEFEF;
+    height: 65vh;
+    width: 100%
+}
+.bottom{
+    background-color: #222222;
+    height: 20vh;
+    width: 100%
 }
